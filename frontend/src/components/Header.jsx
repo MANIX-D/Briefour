@@ -8,7 +8,7 @@ function Header() {
       <nav className="max-w-7xl mx-auto flex justify-between items-center">
         <h1 className="text-xl font-bold">APP</h1>
         <div className="space-x-4">
-          <Link to="/" className="hover:underline">Login</Link>
+          <Link to="/login" className="hover:underline">Login</Link>
           <Link to="/register" className="hover:underline">Register</Link>
           <Link to="/dashboard" className="hover:underline">Dashboard</Link>
         </div>
